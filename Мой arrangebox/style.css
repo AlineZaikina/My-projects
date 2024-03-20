@@ -1,0 +1,107 @@
+html
+{
+    box-sizing: border-box;
+}
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+body
+{
+    margin: 0;
+    font-size: 30px;
+}
+.container
+{
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+}
+.left-box, .right-box  
+{
+    width: 500px;
+    height: 450px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+.text-h2
+{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+.left-box__input, .right-box__input
+{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+.left-box__item
+{
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: move;
+}
+.move-buttons 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+.move-buttons__item 
+{
+    width: 50px;
+    height: 50px;
+}
+.left-box__item:hover
+{
+    background-color: rgb(221, 219, 219);
+    transition: 0.1s;
+}
+.selected-item
+{
+    background-color: rgb(165, 219, 238);
+}
+.selected-item:hover
+{
+    background-color: rgb(165, 219, 238);
+    transition: 0.5s;
+}
+.hide
+{
+    display: none;
+}
+.left-box__sort-button, .right-box__sort-button
+{
+    width: 50%;
+    height: 50px;
+}
+.left-box__header, .right-box__header
+{
+    display: flex;
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+.group-of-buttons 
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.group-of-buttons__item 
+{
+    height: 40px;
+}
