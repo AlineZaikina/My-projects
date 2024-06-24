@@ -1,0 +1,62 @@
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.group-input
+{
+    width: 800px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.group-input__input
+{
+    width: 300px;
+    margin: 15px 15px;
+}
+h4
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.koef-table
+{
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+.noborder, .noborder:focus
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.switch_left
+{
+    padding-left: 110px;
+}
+.result-table
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.hidden
+{
+    display: none;
+}
+.input-days
+{
+    padding-left: 70px;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
