@@ -1,0 +1,55 @@
+.container
+{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+table
+{
+    margin-top: 20px;
+}
+.table__tr
+{
+    cursor: pointer;
+}
+.add_button
+{
+    text-align: center;
+}
+.card
+{
+    width: 600px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+h2
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.card__input
+{
+    width: 200px;
+    margin: 15px 15px;
+}
+.noborder, .noborder:focus
+{
+    border: none;
+    outline: none;
+}
+.border_bottom
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.group_button
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 70px;
+}
